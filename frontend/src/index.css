@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: #f6f7f9;
+  color: #0f172a;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 13px;
+}
+
+/* Numbers line up only if they are tabular. This is a dense numeric table; it matters. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, monospace;
+}

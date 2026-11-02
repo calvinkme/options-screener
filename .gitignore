@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+screener.db
+screener.db-journal
+logs/
+frontend/node_modules/
+frontend/dist/
+backend/app/static/
+
+# third-party course/tracker material and unreviewed files
+*.xlsx
+*.xlsb
+*.pdf
+md.html
+rn.html
+*.egg-info/
+.ruff_cache/
+.vscode/
+.idea/
+*.tsbuildinfo
+
+# assistant instructions / private notes
+CLAUDE.md
